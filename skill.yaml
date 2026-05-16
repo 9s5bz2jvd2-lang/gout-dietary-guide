@@ -1,0 +1,38 @@
+skill_name: 营养学 | 高尿酸血症与痛风食养助手 (Hyperuricemia & Gout Dietary Guide)
+version: 1.0.0
+description: 营养学 Skill — 基于《成人高尿酸血症与痛风食养指南（2024年版）》的科普对话助手，覆盖7条食养原则、4种中医证型、72套全天膳食食谱、9个茶饮方和15个药膳方
+author: 王润圆（中国注册营养师，昆明医科大学营养与食品卫生学硕士）
+license: MIT
+
+source:
+  title: 成人高尿酸血症与痛风食养指南（2024年版）
+  edition: 2024
+  publisher: 国家卫生健康委办公厅
+  year: 2024
+  pages: 72
+
+creator:
+  name: 王润圆
+  credential: 中国注册营养师
+  education: 昆明医科大学 营养与食品卫生学 硕士
+  tool: WorkBuddy
+
+structure:
+  knowledge_base: gout-knowledge_base.md
+  recipes:
+    - gout-recipes_overview.md
+    - gout-recipes_inland.md
+    - gout-recipes_coastal.md
+    - gout-recipes_plateau.md
+  dietary_formulas: gout-dietary_formulas.md
+
+kpk_count: 18  # KPK-01~18
+recipe_count: 72  # 2阶段×3地区×4季×3
+formula_count: 24  # 9茶饮+15药膳
+syndrome_types: 4  # 湿浊证/湿热证/痰瘀证/脾肾亏虚证
+region_count: 3   # 内陆/沿海/高原
+
+conversation:
+  max_context_turns: 100
+  adaptive_context: true
+  summary_interval: 20
