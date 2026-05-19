@@ -1,11 +1,15 @@
-skill_name: 营养学 | 高尿酸血症与痛风食养助手 (Hyperuricemia & Gout Dietary Guide)
-version: 1.0.0
-description: 营养学 Skill — 基于《成人高尿酸血症与痛风食养指南（2024年版）》的科普对话助手，覆盖7条食养原则、4种中医证型、72套全天膳食食谱、9个茶饮方和15个药膳方
+skill_name: 营养学 | 高尿酸血症与痛风营养助手 (Hyperuricemia & Gout Dietary Guide)
+version: 1.1.0
+description: >-
+  Load when 用户提到痛风、高尿酸、尿酸高、嘌呤、大脚趾红肿热痛、
+  关节结晶，或问"尿酸高能吃什么""痛风发作怎么办""怎么降尿酸""XX食物嘌呤多少"。
+  涵盖急性期/缓解期饮食、中医辨证施膳（湿热/湿浊/痰瘀/脾肾亏虚）、
+  食物嘌呤查询（400+种）、72套地区×季节食谱定制。
 author: 王润圆（中国注册营养师，昆明医科大学营养与食品卫生学硕士）
 license: MIT
 
 source:
-  title: 成人高尿酸血症与痛风食养指南（2024年版）
+  title: 成人高尿酸血症与痛风营养指南（2024年版）
   edition: 2024
   publisher: 国家卫生健康委办公厅
   year: 2024
@@ -26,13 +30,8 @@ structure:
     - gout-recipes_plateau.md
   dietary_formulas: gout-dietary_formulas.md
 
-kpk_count: 18  # KPK-01~18
-recipe_count: 72  # 2阶段×3地区×4季×3
-formula_count: 24  # 9茶饮+15药膳
-syndrome_types: 4  # 湿浊证/湿热证/痰瘀证/脾肾亏虚证
-region_count: 3   # 内陆/沿海/高原
-
-conversation:
-  max_context_turns: 100
-  adaptive_context: true
-  summary_interval: 20
+kpk_count: 18
+recipe_count: 72
+formula_count: 24
+syndrome_types: 4
+region_count: 3
