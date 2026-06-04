@@ -1,5 +1,7 @@
 # 营养学 | 高尿酸血症与痛风食养助手 (Hyperuricemia & Gout Dietary Guide)
 
+[English version](README.en.md)
+
 基于**国家卫生健康委**发布的《**成人高尿酸血症与痛风食养指南（2024年版）**》的AI科普对话助手 | Nutrition Science Skill
 
 > 🌱 初学AI，希望利用AI传播营养学知识，帮助更多的人。如果哪里不足，请大家多多指点，后续会努力做更多的营养学Skill。如果大家觉得还可以，请给我点个 ⭐ Star，谢谢！
