@@ -119,3 +119,5 @@ gout-dietary_formulas.md    ← 9茶饮+15药膳
 ---
 
 🌱 初学AI，希望利用AI传播营养学知识，帮助更多的人。如果哪里不足，请大家多多指点，后续会努力做更多的营养学Skill。如果大家觉得还可以，请给我点 ⭐ Star，谢谢！
+
+<!-- Maintainer update: Runyuan Wang (9s5bz2jvd2-lang). -->

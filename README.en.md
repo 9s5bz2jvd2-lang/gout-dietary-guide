@@ -81,3 +81,5 @@ An AI popular-science conversation assistant based on the **Dietary and Nutritio
 ## License
 
 MIT
+
+<!-- Maintainer update: Runyuan Wang (9s5bz2jvd2-lang). -->
